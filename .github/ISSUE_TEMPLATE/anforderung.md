@@ -1,16 +1,36 @@
-### Issue Vorlage:
+---
+name: Anforderung
+about: neue anforderungen eintragen
+title: "Anforderung:"
+labels: ""
+assignees: ""
+---
 
-**Zielsystem**: [Zielsystem hier eintragen]
+## Anforderung: [kurze Beschreibung der Anforderung]
 
-**Priorität**: [Priorität hier angeben - muss / soll / wird]
+### Zielsystem:
 
-**Systemaktivität**: [Systemaktivität hier beschreiben]
+[betroffenes (Teil-)System hier eintragen]
 
-**Allgemeine Ergänzungen**: [Allgemeine Ergänzungen, falls vorhanden]
+### Priorität:
 
-**Funktionalität**: [Gewünschte Funktionalität beschreiben]
+[Priorität hier angeben - muss (hohe Priorität) / soll (mittlere Priorität) / wird (niedrige Priorität)]
 
-**Bedingungen**: [Zeitliche oder logische Bedingungen, falls relevant]
+### Systemaktivität:
+
+[Selbstständig handeln / dem Benutzer die Möglichkeit bieten / fähig sein]
+
+### Allgemeine Ergänzungen:
+
+[Allgemeine Ergänzungen, die relevant sein könnten]
+
+### Funktionalität:
+
+[Gewünschte Funktionalität beschreiben]
+
+### Bedingungen:
+
+[Zeitliche oder logische Bedingungen (zeitlich mit wenn bechrieben, logisch mit falls)]
 
 ---
 
