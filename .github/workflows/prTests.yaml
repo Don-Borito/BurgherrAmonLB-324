@@ -1,0 +1,26 @@
+name: Tests on PR to dev
+
+on:
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  test:
+    name: PR Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Tests for Python
+        run: pytest test_app.py
