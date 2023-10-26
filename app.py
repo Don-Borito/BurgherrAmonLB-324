@@ -16,6 +16,7 @@ entries = []
 class Entry():
     content: str 
     timestamp: datetime = datetime.now()
+    happiness: str
 
 
 @app.route('/')
