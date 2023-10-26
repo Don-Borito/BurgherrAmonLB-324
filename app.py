@@ -14,9 +14,9 @@ entries = []
 
 @dataclass
 class Entry():
+    happiness: str
     content: str 
     timestamp: datetime = datetime.now()
-    happiness: str
 
 
 @app.route('/')
