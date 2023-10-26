@@ -16,6 +16,7 @@ entries = []
 class Entry():
     content: str
     timestamp: datetime = datetime.now()
+    happiness: str = '😃'
 
 
 @app.route('/')
@@ -48,6 +49,15 @@ def add_entry():
     content = request.form.get('content')
     if content:
         entry = Entry(content=content)
+        entries.append(entry)
+    return redirect(url_for('index'))
+
+@app.route('/add_entry_happiness', methods=['POST'])
+def add_entry_happiness():
+    content = request.form.get('content')
+    happiness = request.form.get('happiness')
+    if content:
+        entry = Entry(content=content, happiness=happiness)
         entries.append(entry)
     return redirect(url_for('index'))
 
