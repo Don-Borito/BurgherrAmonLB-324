@@ -17,7 +17,7 @@ Wenn von `pre-commit` Fehler gemeldet werden, müssen diese korrigiert werden, d
 Manuell starten: `pre-commit run --all-files`
 
 ## Aufgabe 4
-Link zur Applikation: burgherramonlb324.azurewebsites.net
+Link zur Applikation ![hier](burgherramonlb324.azurewebsites.net)
 
 Inhalt der `.env` Datei in Azure eintragen.
 
