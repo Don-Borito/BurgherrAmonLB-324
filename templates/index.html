@@ -25,7 +25,7 @@
       {% for entry in entries %}
       <li>
         {{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content
-        }}
+        }} - {{ entry.happiness }}
       </li>
       {% endfor %}
     </ul>
